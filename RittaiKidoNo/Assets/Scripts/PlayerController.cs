@@ -24,6 +24,8 @@ public class PlayerController : MonoBehaviour
     {
         cameraControll();
         moveControll();
+
+        //if ()
     }
 
     void moveControll()
@@ -44,5 +46,10 @@ public class PlayerController : MonoBehaviour
         y_Rotation = y_Rotation * y_sensi;
         this.transform.Rotate(0, x_Rotation, 0);
         camera.transform.Rotate(-y_Rotation, 0, 0);
+    }
+
+    void swingSword()
+    {
+
     }
 }
